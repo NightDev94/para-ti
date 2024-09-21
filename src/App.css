@@ -33,7 +33,7 @@ body {
 /* Contenedor traslúcido para el texto */
 .text-container {
   position: absolute; /* Posicionamos el contenedor en absoluto */
-  top: 10%; /* Posicionamos el contenedor un poco más arriba */
+  top: 5%; /* Posicionamos el contenedor un poco más arriba */
   left: 50%; /* Centramos el contenedor horizontalmente */
   transform: translateX(-50%); /* Centramos el contenedor horizontalmente */
   background-color: rgba(255, 255, 255, 0.3); /* Fondo semi-transparente */
