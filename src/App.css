@@ -58,3 +58,13 @@ body {
   text-align: center; /* Alineación del texto */
   white-space: pre-wrap; /* Mantenemos los espaciados del texto */
 }
+
+@media only screen and (max-width: 480px) {
+  .app-container {
+    background-size: 100vw 100vh;
+  }
+  .text-container {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+}
