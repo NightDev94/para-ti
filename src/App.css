@@ -54,7 +54,7 @@ body {
 .text-container p {
   font-family: 'Times New Roman', serif; /* Fuente para el poema */
   font-size: 18px; /* Tamaño de la fuente */
-  line-height: 1.5; /* Espacio entre líneas */
+  line-height: 1; /* Espacio entre líneas */
   text-align: center; /* Alineación del texto */
   white-space: pre-wrap; /* Mantenemos los espaciados del texto */
 }
