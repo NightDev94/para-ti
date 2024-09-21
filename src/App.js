@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="app-container">
       <div className="text-container">
-        <h1>Un poema para ti</h1>
+        <h1>Siempre pienso en ti</h1>
         <p>
           En un rincón del cielo estrellado,<br />
           donde el amor se vuelve infinito,<br />
@@ -32,6 +32,9 @@ function App() {
           la Ángela que abraza su ser especial,<br />
           hoy celebro contigo, mi amor tanto,<br />
           en este viaje, eres mi final ideal.<br />
+          <br />
+          Te amo de aqui a la luna y a pasitos de caracol<br />
+          TE AMO... <br />
         </p>
       </div>
     </div>
