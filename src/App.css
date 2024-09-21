@@ -4,54 +4,59 @@ body {
 }
 
 .app-container {
+  /* Ajustamos la imagen de fondo */
   background-image: url('./images/pxfuel.jpg');
-  background-position: center;
-  height: 100vh;
-  width: 100%;
-  background-size: 1200px 800px;
+  background-position: center; /* La imagen se centra horizontalmente */
+  height: 967px; /* Establecemos una altura específica para la imagen */
+  width: 1854px; /* Establecemos una anchura específica para la imagen */
+  background-size: 1200px 800px; /* Establecemos el tamaño exacto de la imagen */
   display: flex;
   justify-content: center;
   align-items: center;
+  /* Agregamos un filtro de brillo para resaltar la imagen */
   filter: brightness(1.2);
-  background-attachment: fixed; /* Agregamos esta propiedad */
 }
 
+/* Ajustamos la imagen de fondo para que se vea mejor */
 .app-container::before {
   content: '';
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(255, 240, 245, 0.5);
-  z-index: -1;
+  width: 100%;
+  height: 100%;
+  /* Cambiamos el fondo oscuro a un tono más suave */
+  background-color: rgba(255, 240, 245, 0.5); /* Un tono rosado claro */
+  z-index: -1; /* Ponemos el fondo detrás del contenido */
 }
 
+/* Contenedor traslúcido para el texto */
 .text-container {
-  position: absolute;
-  top: 10%;
-  max-width: 80%;
-  margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.3);
-  padding: 10px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  position: absolute; /* Posicionamos el contenedor en absoluto */
+  top: 10%; /* Posicionamos el contenedor un poco más arriba */
+  left: 50%; /* Centramos el contenedor horizontalmente */
+  transform: translateX(-50%); /* Centramos el contenedor horizontalmente */
+  background-color: rgba(255, 255, 255, 0.3); /* Fondo semi-transparente */
+  padding: 20px; /* Espacio entre el contenedor y el texto */
+  border-radius: 10px; /* Curvatura suave para el contenedor */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra suave para el contenedor */
 }
 
+/* Estilos para el poema */
 .text-container h1 {
-  color: #333;
-  font-size: calc(1.2rem + 0.2vw);
-  margin-bottom: 20px;
-  font-family: 'Playfair Display', serif;
+  color: #333; /* Color del título */
+  font-size: 36px; /* Tamaño del título */
+  margin-bottom: 20px; /* Espacio entre el título y el poema */
+  font-family: 'Playfair Display', serif; /* Fuente elegante para el título */
   text-align: center;
 }
 
 .text-container p {
-  font-family: 'Times New Roman', serif;
-  font-size: calc(1.2rem + 0.2vw);
-  line-height: 1.5;
-  text-align: center;
-  white-space: pre-wrap;
+  font-family: 'Times New Roman', serif; /* Fuente para el poema */
+  font-size: 18px; /* Tamaño de la fuente */
+  line-height: 1.5; /* Espacio entre líneas */
+  text-align: center; /* Alineación del texto */
+  white-space: pre-wrap; /* Mantenemos los espaciados del texto */
 }
 
 @media only screen and (max-width: 480px) {
